@@ -13,8 +13,12 @@
 // HSE is 25MHz
 #define MICROPY_HW_CLK_PLLM (25) // divide external clock by this to get 1MHz
 #define MICROPY_HW_CLK_PLLN (160) // PLL clock in MHz
-#define MICROPY_HW_CLK_PLLP (RCC_PLLP_DIV2) // divide PLL clock by this to get core clock
+#define MICROPY_HW_CLK_PLLP (2) // divide PLL clock by this to get core clock
 #define MICROPY_HW_CLK_PLLQ (4) // divide core clock by this to get 40MHz
+#define MICROPY_HW_CLK_PLLFRAC (0) // undeclared
+#define MICROPY_HW_CLK_PLLVCO (RCC_PLL1VCOWIDE)  // undeclared
+#define MICROPY_HW_CLK_PLLVCI (RCC_PLL1VCIRANGE_1) // undeclared
+#define MICROPY_HW_CLK_PLLR (2) // undeclared
 
 // The board has a 32kHz crystal for the RTC
 #define MICROPY_HW_RTC_USE_LSE      (1)
