@@ -1,3 +1,5 @@
+> https://github.com/mcauser/MCUDEV_DEVEBOX_H7XX_M/issues/11
+
 # MCUDev DevEBox STM32H7XX_M
 
 MicroPython board definition files for the MCUDev STM32H7XX_M mini dev boards.
